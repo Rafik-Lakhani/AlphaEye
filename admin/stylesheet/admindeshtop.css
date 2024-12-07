@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  
+}
+
+html,body{
+    min-height:100%;
+    min-width:100%;
+    color: #fff;
+    display: flex;
+    background-color: #fafbfd;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color: #fafbfd;
+}
+
+
+
+.deshboard{
+    width: 85%;
+    height: 100%;
+    /* margin: 0px auto; */
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+    padding-top: 20px;
+}
+.top-sec{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    padding-left: 30px;
+}
+.icon{
+    margin-top: 15px;
+}
+.icon i{
+    border-radius: 50%;
+    background-color: #fa5a7c;
+    padding: 10px;
+    font-size: 1.6rem;
+    margin-top: 15px;
+}
+
+.box{
+    color: #000;
+    background-color: #ffe2e6;
+    width: 13%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding:0px  10px;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+
+.box h1{
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.box h4{
+    font-size: 0.9rem;
+}
+
+
+.center-sec{
+    width: 100%;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    gap: 5px;
+}
+
+.center-sec h1{
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.order-heading{
+    background-color: #0046FE;
+    color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    padding: 3px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-data{
+    background-color: #fafbfd;
+    color: black;
+    border-radius: 10px;
+    width: 100%;
+    padding: 3px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all linear 0.3s;
+}
+
+.details{
+    width: 30%;
+    text-align: center;
+}
+
+
+.action h3 a i{
+    color: black;
+    font-size: 1.5rem;
+}
+.action h3 a{
+    text-decoration: none;
+}
+.order-data:hover{
+    background-color:#b9b5b5c2;
+    box-shadow: 3px 5px #b5b1b1;
+    width:102%;
+    align-self: center;
+}

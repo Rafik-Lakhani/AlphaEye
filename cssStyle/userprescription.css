@@ -1,0 +1,150 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html,
+body {
+width: 100%;
+color: #000;
+background-color: #f4f5f6;
+font-family: "Poppins", sans-serif;
+}
+
+.main{
+width: 100%;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+
+}
+
+.center-div{
+width: 62%;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+display: flex;
+background-color: #fff;
+justify-content: center;
+align-items: center;
+align-self: center;
+border-radius: 40px;
+margin-top: 10vh;
+margin-bottom: 10vh;
+}
+
+.center-div form{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+align-self: center;
+  
+}
+
+.power-part{
+display: flex;
+flex-direction: column;
+gap: 10px;
+width: 100%;
+  
+}
+
+.power-heading{
+width: 70%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 143px;
+padding-right:23px;
+align-self: flex-end;
+}
+
+.power-heading h2{
+font-size: 1.3rem;
+/* border-bottom: 2px dotted #000; */
+}
+
+
+.power-heading2{
+display: flex;
+gap: 20px;
+width: 100%;
+flex-direction: column;
+
+}
+
+
+.right-eye , .left-eye{
+display: flex;
+gap: 5px;
+justify-content: space-between;
+align-items: center;
+width:100%;
+}
+
+.right-eye h2 ,.left-eye h2{
+font-size: 1.3rem;
+max-width: 20%;
+}
+
+.right-eye select, .left-eye select{
+font-size: 1rem;
+width:12%;
+border-radius: 12px;
+padding:0px 5px;
+}
+
+.left-eye h2{
+padding-right: 17px;
+}
+.right-eye input, .left-eye input{
+width: 12%;
+border-radius: 12px;
+padding:0px 5px;
+
+}
+
+.payment-sec{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+margin-top: 30px;
+}
+
+.payment-div{
+width: 100%;
+margin: auto;
+transform: translate(37%, 0%) ;
+padding: 10px;
+/* display: flex;
+gap: 10px;
+justify-content: space-between;
+align-items: center;
+flex-direction: column; */
+}
+.payment-div h1{
+font-size: 1.5rem;
+  
+}
+
+.payment-div input[type="radio"]{
+margin-left: 20px;
+}
+
+.submit-div input{
+margin-top: 20px;
+border: none;
+border-radius: 20px;
+background-color: rgb(91, 200, 164);
+font-weight: 600;
+padding: 5px 25px;
+width: 100%;
+font-size: 1rem;
+background-color:  rgb(91, 200, 164);
+}

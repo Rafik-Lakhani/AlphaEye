@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  html, body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #f0f8ff;
+  }
+  
+  .main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .profile-container{
+    width: 40%;
+    padding: 10px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+.profile-div{
+  width: 100%;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.profile-div form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+.profile-div form  div { 
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+
+  text-align: center;
+}
+
+.profile-div form h2{
+  text-align: center;
+}
+
+.profile-div form  div label{
+  font-size: 1.1rem;
+  width: 30%;
+}
+.profile-div form  div input{
+  width: 70%;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1.1rem;
+}
+
+#email{
+  background-color: #dfdadac7;
+}
+
+.profile-div form input[type="submit"]{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  width: 20%;
+  align-self: center;
+  margin-top: 10px;
+}
+
+
+  

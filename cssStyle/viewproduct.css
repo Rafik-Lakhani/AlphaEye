@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #f0f8ff;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* height: 100%; */
+}
+.card-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 100%;
+    padding-top:12px;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding:10px 10px 10px 30px;
+    margin-top: 25px;
+}
+
+.card{
+    width: 23%;
+    background-color: #F7F7F9;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: all ease 0.8s;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card a img{
+    height: 270px;
+    width: 100%;
+    object-fit: cover;
+    /* -webkit-animation-fill-mode:both; */
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.detail-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 20px; */
+    width: 100%;
+}
+
+.name-div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 80%;
+    max-width: 80%;
+    /* overflow: hidden; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    padding: 20px 10px;
+    padding-bottom: 0px;
+}
+
+
+.name-div h3{
+    font-size: 1.3rem;
+    text-overflow:ellipsis;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.name-div h5{
+    font-size:1.2rem ;
+}
+
+.btn-div{
+    width: 20%;
+}
+
+.btn-div a button{
+    background-color: #424874;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    text-align:center;
+    align-self: center;
+}
+
+.btn-div a button i{
+    font-size: 1.5rem;
+}

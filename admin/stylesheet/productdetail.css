@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    min-height:100%;
+    min-width:100%;
+    display: flex;
+    background-color:#fafbfd;
+    font-family: "Poppins", sans-serif;
+}
+ .main{
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafbfd;
+}
+
+
+
+.center-sec{
+    width: 85%;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #fff;
+    padding: 25px;
+    gap: 5px;
+}
+
+.center-sec .heading {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.heading div a button{
+    background-color: #0046FE;
+    color: #fff;
+    border: none;
+    padding: 6px 17px;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: all ease .3s;
+    font-size: 1rem;
+}
+.heading div a button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: all ease .3s;
+}
+
+.heading div a button:hover ,.heading div a button:hover a{
+    background-color: #fff;
+    color: #0046FE;
+}
+
+.heading div a button:hover{
+    border: 2px solid #0046FE;
+}
+
+
+.center-sec>.username{
+    width: 100%;
+}
+
+.username h5{
+    font-size:1rem;
+}
+.username .hrline{
+    height:3px;
+    background-color: #000;
+    width: 100%;
+    margin: auto;
+}
+
+.color-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.color-box{
+    height: 30px ;
+    width: 30px;
+    background-color: black;
+    border:2px solid #000;
+    border-radius: 10px;
+}
+
+.image-div{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.image-div img{
+    width: 100%;
+    height: 100%;
+}
+
+#productdetail{
+    overflow: scroll;
+    max-height: 200px !important;
+}

@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html body{
+    height:100%;
+    width:100%;
+    color: black;
+    font-family: "Moderustic";
+}
+nav{
+    width: 100%;
+    padding:10px 20px;
+    /* border-bottom:2px solid black; */
+    /* box-shadow: 5px 10px #EFF3FF;  */
+    z-index: 999;
+    position: relative;
+    overflow: hidden;
+}
+.nav-div{
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.left-nav{
+    width:10%;
+}
+.left-nav a{
+    width:100px;
+    height:50px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.left-nav a h1{
+    font-size: 2rem;
+    color: #000;
+    line-height: 1.2cm;
+    font-weight: 600;
+    font-family: "Moderustic";
+}
+
+.center-nav{
+    display:flex;
+    align-items:center;
+    width: 30%;
+}
+.center-nav ol{
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    z-index: 999;
+}
+
+.center-nav ol li{
+    font-size: 1.05rem;
+    list-style: none;
+    position: relative;
+}
+.center-nav ol li a{
+    font-size: 1.05rem;
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+
+.right-nav{
+    width: 6%;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+}
+
+
+
+
+#search-icon{
+    /* position: absolute;
+    top: 5px;
+    right: 5px; */
+    border: 2px solid #000;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    padding: 3px;
+}
+
+.right-nav a{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 2px solid #000;
+    padding: 3px;
+}
+
+.right-nav a i{
+    font-size: 1.3rem;
+    color:  #000;
+}
+
+#user-logo{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border: 2px solid #000;
+    padding: 0px 7px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: transparent !important;;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+#user-logo i{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    /* border: 2px solid #000; */
+    padding: 0px 0px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: transparent !important;;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+#user-name-logo{
+    padding: 0;
+    font-weight: 600;
+}
+
+#user-logo:hover{
+    background-color: #ddd;
+}
+
+.category{
+    z-index: 1;
+    position: relative;
+}
+
+.category:hover .category-div{
+    display: flex;
+    opacity: 1;
+}
+
+
+
+.category-div{
+    position: fixed;
+    top: 45px;
+    background-color: #fff;
+    margin: auto;
+    transform: translate(-20%);
+    display: none;
+    opacity: 0;
+    padding: 10px 30px;
+    width: 450px;
+    border-radius: 25px;
+    transition: all linear 0.3s;
+    z-index:999;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.catlink{
+    margin-bottom: 0px;
+}
+
+.image-sec{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    width: 20%;
+    gap: 15px;
+}
+
+.image-sec img{
+    width: 60px;
+    height: 60px;
+}
+
+
+.name-sec{
+    max-height: 200px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    padding-left: 20px;
+
+}
+
+.men,.women,.unisex{
+    min-height: 200px;
+    /* background-color: #fff; */
+    width: 100%;
+    position: absolute;
+    transition: all ease-in 0.4s;
+}
+
+.men{
+    top: 0px;
+}
+.women{
+    top: 200px;
+}
+.unisex{
+    top: 400px;
+}
+
+#uniseximg{
+    background-color: rgb(182, 172, 172);
+    border-radius: 50%;
+    object-fit: fill;
+    width: 60px;
+    height: 60px;
+}
+
+.name-sec h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+
+}
+
+.name-sec h5 a{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+/* here search section work start */
+
+.search-sec{
+    height: 250px;
+    /* background-color: #ffffffcd; */
+    background-color: #F7F7F9;
+    border-radius:30px ;
+    width: 500px;
+    position: fixed !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-75%);
+    z-index: 999;
+    padding: 10px;
+    padding-top: 30px;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search-sec input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #424874;
+    color: #424874;
+    font-size: 1rem;
+}
+
+.search-sec form{
+    position: relative;
+}
+
+.search-sec form h3{
+    margin-left:30% ;
+    font-size: 1.2rem;
+    color: #0000006d;
+    align-self: center;
+    margin-top: 50px;
+
+}
+
+.search-sec button{
+    position: absolute;
+    right: 15px;
+    top: 35px;
+    border-radius: 50%;
+    font-size: 2rem;
+    background-color: transparent;
+    height: 35px;
+    padding: 0px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* here user profile menu div css code */
+
+.menu-div{
+    transition: all ease 0.5s;
+    padding: 20px;
+    color: black;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50px;   
+    right: -170px; 
+    gap: 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:20px ;
+    /* z-index:900; */
+}
+
+.menu-div ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 5px;
+    
+}
+
+.menu-div ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.menu-div ul li a:hover{
+    color: #424874;
+}
+
+.menu-div ul li a i{
+    margin-right: 10px;
+}
+
+/* here nav bar hover effect css */
+.center-nav ol li a{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    align-self: center;
+}
+.center-nav ol li a:hover{
+    color: #000;
+}
+
+.center-nav ol li a span{
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #0000007c;
+    z-index: -1;
+    border-bottom:2px solid #000; 
+    border-top:1px solid #0000006d; 
+    border-radius: 15px;
+    transform: scale(0) translateY(50px);
+    opacity: 0;
+    transition: all ease 0.5s;
+    align-self: center;
+    
+}
+
+.center-nav ol li a:hover span{
+    transform: scale(1) translateY(-5px) translateX(-18%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    opacity: 1;
+}
+
+
+
+/* here category hover effect css */

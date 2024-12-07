@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    min-height:100%;
+    min-width:100%;
+    display: flex;
+    background-color:#fafbfd;
+    font-family: "Poppins", sans-serif;
+}
+ .main{
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafbfd;
+}
+
+
+
+.center-sec{
+    width: 85%;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #fff;
+    padding: 25px;
+    gap: 5px;
+}
+
+.center-sec .heading {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.heading button{
+    background-color: #0046FE;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.heading button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.heading button:hover ,.heading button:hover a{
+    background-color: #fff;
+    color: #0046FE;
+}
+
+.heading button:hover{
+    border: 2px solid #0046FE;
+}
+
+
+
+
+
+
+
+
+
+
+.center-sec>.username{
+    width: 100%;
+}
+
+.username h6{
+    font-size:0.85rem;
+}
+.username .hrline{
+    height:3px;
+    background-color: #000;
+    width: 100%;
+    margin: auto;
+}

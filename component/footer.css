@@ -1,0 +1,111 @@
+footer{
+    width: 100%;
+    display: flex;
+    padding: 20px 30px;
+    margin-top: 10px;
+    flex-direction: column;
+    border-top: 2px solid #000;
+    background-color:transparent;
+    transition: all ease 0.3s;
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brand-part{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 30px;
+    flex-direction: column;
+}
+
+.brand-part a{
+    color: #000;
+    text-decoration: none;
+}
+
+.brand-part a h1{
+    text-decoration: none;
+    font-size: 3rem;
+    color: #000;
+    line-height: 1.2cm;
+    font-weight: 600;
+    font-family: "Moderustic";
+}
+
+.brand-part h3{
+    font-size: 1rem;
+    /* color: rgba(0, 0, 0, 0.507); */
+    margin-top: 5px;
+}
+.media-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.media-link a i{
+    font-size: 1.5rem;
+}
+
+.link-part{
+    display: flex;
+    margin-top: 20px;
+    /* flex-direction: column; */
+    width: 60%;
+    align-items: start;
+    justify-content: start;
+    gap: 80px;
+    padding-left: 100px;
+}
+
+.link-part .section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-part .section h3{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.link-part .section a{
+    color: #000;
+    text-decoration: none;
+}
+
+.link-part .section h5{
+    font-weight: 500;
+    margin-top: 3px;
+}
+.link-part .section h5 span{
+    margin-right: 5px;
+    font-size: 1rem;
+    transition: all ease 0.3s;
+}
+
+.copyright{
+    align-self: center;
+    margin-top: 20px;
+}
+
+footer a:hover{
+    color: #0000007c;
+}
+
+footer .link-part .section a:hover{
+    color: #0000007c;
+}
+
+.link-part .section h5:hover{
+    color: #0000007c;
+}

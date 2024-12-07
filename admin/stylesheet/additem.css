@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  
+}
+
+html,body{
+    min-height:100%;
+    min-width:100%;
+    color: white;
+    display: flex;
+    background-color: #fafbfd;
+    font-family: "Poppins", sans-serif;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color: #fafbfd;
+}
+.deshboard{
+    width: 85%;
+    height: 100%;
+    /* margin: 0px auto; */
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+    /* padding-top: 20px; */
+
+    /* background-color: red; */
+}
+.top-sec{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    /* padding-left: 30px; */
+    /* background-color: red; */
+}
+
+.box-conatiner{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}    
+
+
+
+
+.document{
+    width: 100%;
+    /* height:80%; */
+    
+    /* margin-top: 15px; */
+    /* background-color: blue; */
+     border-radius: 30px;
+     padding:20px
+     /* box-shadow: 10px 5px rgb(214 204 204 / 85%); */
+
+}
+
+
+.top-hadding{
+    padding: 5px 10px;
+    display :flex;
+    justify-content: space-between;
+}
+.top-hadding h1{
+    color:black
+}
+.top-hadding a button{
+    background-color: #0046FE;
+     border: none;
+     color: #fff;
+    padding: 10px 25px; 
+    border-radius: 5px;
+    margin-right: 15px;
+}
+ button a{
+    text-decoration: none;
+    color:white;
+ }
+
+.top-hadding a button:hover ,.top-hadding a:hover button {
+    color: #0046FE;    
+    background-color: #fff;
+
+} 
+.top-hadding a button:hover {
+    color: #0046FE;
+    border:2px solid #0046FE;
+    background-color: #fff;
+
+}
+.icon{
+    margin-top: 15px;
+    /* background-color: white; */
+}
+.icon i{
+    border-radius: 50%;
+    /* background-color:rgb(249, 245, 245); */
+    transition: all ease-in 0.25s;
+    border: 2px solid black;
+    color:black;
+    padding: 10px;
+    font-size: 1.6rem;
+    margin-top: 15px;
+}
+
+.box{
+    color: #000;
+    background-color:#ffe2e6;
+    width: 17%;
+    height: 120%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding:0px  10px;
+    justify-content: space-between;
+    border: 2px solid black;
+    transition: all ease-in 0.25s;
+}
+
+/* .box:hover .icon i{
+    background-color:#fa5a7c;
+    color: black;
+    border-color: white;
+}
+.box:hover{
+    background-color: #3f61b6;
+    
+} */
+.icon i{
+    background-color: #fa5a7c;
+}
+.divder{
+    
+    width: 100%;
+    border: 2px solid black;
+}
+
+.order-heading{
+        background-color: #0046FE;
+        color: #fff;
+        border-radius: 5px;
+        width: 100%;
+        padding: 5px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:15px;
+      
+   
+}
+.oder-id{
+    width:10%;
+    text-align: center;
+}
+.details{
+    width:67%;
+    text-align: center;
+}
+.price,.status,.action,.color{
+    width:10%;
+    text-align: center; 
+}
+.order-data{
+    background-color: #fafbfd;
+    color: black;
+    border-radius: 10px;
+    width: 100%;
+    padding: 3px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all linear 0.3s;
+}
+.details{
+    width: 30%;
+    text-align: center;
+}
+.action h3 a i{
+    color: black;
+    font-size: 1.5rem;
+}
+.action h3 a{
+    text-decoration: none;
+}
+.order-data:hover{
+        background-color:#b9b5b5c2;
+        box-shadow: 5px 5px #b5b1b1;
+        width:100%;
+        align-self:center;
+}
